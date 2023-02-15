@@ -1,0 +1,112 @@
+:root{
+    --color1:#2196F3; 
+    --color2:#212121;
+    --color3:#757575;
+    --color4:#2F303A;
+    --color5:#FFFFFF;
+    
+   }
+/*----------fuente body---------*/
+body {
+    font-family: 'Roboto', sans-serif;
+}
+    /*---------logo---------*/
+   .logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px; font-weight: 700; color:var(--color1); text-decoration: none; }
+.logo:hover {
+    color: blue;
+}
+
+.navegacion {
+    list-style: none;
+}
+
+.contact-section{
+    list-style: none;
+}
+
+/*----------Enlacees de navegacion---------*/
+ .azul {color: var(--color1); font-size: 14; font-weight: 500;}
+
+.navegacion :hover {
+   color: var(--color5);
+}
+
+
+/*------------------contact---------------------*/
+.contact-section > .email > *{
+color:var(--color3); font-weight: 500; font-size: 14px; text-decoration: none;
+}
+   .contact-section > .tel > *{
+    color:var(--color3); font-weight: 500; font-size: 14px; text-decoration: none;
+   }
+   .contact-section :hover{
+    color: var(--color4);
+   }
+   .contact-section :active{
+    color: rgb(240, 154, 123);
+   }
+/*-----------------------titulo------------------------*/
+   .titulo {
+    background-color: var(--color4);
+      }
+      .h1 {
+        color: var(--color5); font-size: 44px; font-weight: 900; text-align: center;
+          }
+
+   .boton1{
+        font-weight: 700; font-size: 16px;  color:var(--color5);  background-color: var(--color1);
+     }
+     .titulo :hover{
+        background-color: var(--color4)
+        ;
+     }
+     .titulo :active{
+        background-color: orangered;
+     }
+
+     .ventajas h3 {
+        color:var(--color2); font-size: 14px; font-weight: 700; 
+     }
+     .ventajas p {
+        font-weight: 400; font-size: 14px; color:var(--color3);
+     }
+     .ventajas h3 {
+        list-style: none;
+     }
+
+     .ventajas .encabezado {
+      list-style: none;
+   }
+
+   /*-----------------------A que nos dedicamos------------------*/
+   .dedicamos h2{
+      color:var(--color2); font-size: 36px; font-weight: 700;
+   }
+   .imagen {list-style: none;}
+
+   /*------------------Nuetro equipo-------------------------*/
+   .equipo h2{
+      color:var(--color2); font-size: 36px; font-weight: 700;
+   }
+   .asesores {list-style: none;}
+
+   /*-------------------------pie de pagina--------------------*/
+  .final {background-color: var(--color4);}
+  .contacto .ubicacion{
+   color:var(--color5); font-size: 14px; font-weight: 400; text-decoration: none;
+  }
+.contacto .correo{
+   color:var(--color5); font-size: 14px; font-weight: 400; text-decoration: none;
+}
+.contacto .telefono{
+   color:var(--color5); font-size: 14px; font-weight: 400; text-decoration: none;
+}
+
+  .contacto {
+   list-style: none;
+  }
+ /*-----------------------------portafolio imagenes-------------*/
+ 
+   
