@@ -4,6 +4,8 @@
     --color3:#757575;
     --color4:#2F303A;
     --color5:#FFFFFF;
+    --color6: rgba(255, 255, 255, 0.6);
+
     
    }
 /*----------fuente body---------*/
@@ -14,32 +16,26 @@ body {
    .logo {
     font-family: 'Raleway', sans-serif;
     font-size: 26px; font-weight: 700; color:var(--color1); text-decoration: none; }
-.logo:hover {
-    color: blue;
+
+ul, h1, h2, h3, h4, h5, h6 {
+   list-style: none; margin: 0; padding: 0;
 }
 
-.navegacion {
-    list-style: none;
-}
-
-.contact-section{
-    list-style: none;
+a {
+   color:currentColor; text-decoration: none;
 }
 
 /*----------Enlacees de navegacion---------*/
- .azul {color: var(--color1); font-size: 14; font-weight: 500;}
+ .navegation {font-weight: 500; font-size: 14px; line-height: 1.14; color: var(--color2); }
 
-.navegacion :hover {
-   color: var(--color5);
-}
-
+.navegation :hover {color: var(--color1);}
 
 /*------------------contact---------------------*/
 .contact-section > .email > *{
-color:var(--color3); font-weight: 500; font-size: 14px; text-decoration: none;
+color:var(--color3); font-weight: 500; font-size: 14px; line-height: 1.14; text-decoration: none;
 }
    .contact-section > .tel > *{
-    color:var(--color3); font-weight: 500; font-size: 14px; text-decoration: none;
+    color:var(--color3); font-weight: 500; font-size: 14px; line-height: 1.14; text-decoration: none;
    }
    .contact-section :hover{
     color: var(--color4);
@@ -47,66 +43,72 @@ color:var(--color3); font-weight: 500; font-size: 14px; text-decoration: none;
    .contact-section :active{
     color: rgb(240, 154, 123);
    }
+   .contact-section {list-style: none;}
 /*-----------------------titulo------------------------*/
    .titulo {
     background-color: var(--color4);
       }
       .h1 {
-        color: var(--color5); font-size: 44px; font-weight: 900; text-align: center;
+        color: var(--color5); font-size: 44px; font-weight: 900; text-align: center; line-height: 1.36;
           }
 
    .boton1{
-        font-weight: 700; font-size: 16px;  color:var(--color5);  background-color: var(--color1);
+        font-weight: 700; font-size: 16px;  color:var(--color5);  background-color: var(--color1); line-height: 1.87; font-family: 'Roboto', sans-serif;
      }
      .titulo :hover{
         background-color: var(--color4)
         ;
      }
      .titulo :active{
-        background-color: orangered;
+        background-color: var(--color1);
      }
 
      .ventajas h3 {
-        color:var(--color2); font-size: 14px; font-weight: 700; 
+        color:var(--color2); font-size: 14px; font-weight: 700; line-height: 1.14;
      }
      .ventajas p {
-        font-weight: 400; font-size: 14px; color:var(--color3);
+        font-weight: 400; font-size: 14px; color:var(--color3); line-height: 1.71;
      }
      .ventajas h3 {
         list-style: none;
      }
 
-     .ventajas .encabezado {
-      list-style: none;
-   }
-
+    
    /*-----------------------A que nos dedicamos------------------*/
    .dedicamos h2{
-      color:var(--color2); font-size: 36px; font-weight: 700;
+      color:var(--color2); font-size: 36px; font-weight: 700; line-height: 1.16;
    }
    .imagen {list-style: none;}
 
    /*------------------Nuetro equipo-------------------------*/
    .equipo h2{
-      color:var(--color2); font-size: 36px; font-weight: 700;
+      color:var(--color2); font-size: 36px; font-weight: 700; line-height: 1.16;
    }
-   .asesores {list-style: none;}
+        
+   .asesores h3 {color:var(--color2); font-size: 16px; line-height: 1.18; font-weight: 500; background-color: #FFFFFF;}
+   .asesores p {color:var(--color3);font-size: 16px; line-height: 1.18; font-weight: 400;}
 
    /*-------------------------pie de pagina--------------------*/
   .final {background-color: var(--color4);}
   .contacto .ubicacion{
-   color:var(--color5); font-size: 14px; font-weight: 400; text-decoration: none;
+   color:var(--color5); font-size: 14px; font-weight: 400; text-decoration: none; line-height: 1.71;
   }
 .contacto .correo{
-   color:var(--color5); font-size: 14px; font-weight: 400; text-decoration: none;
+   color:var(--color6); font-size: 14px; font-weight: 400; text-decoration: none; line-height: 1.71;
 }
 .contacto .telefono{
-   color:var(--color5); font-size: 14px; font-weight: 400; text-decoration: none;
+   color:var(--color6); font-size: 14px; font-weight: 400; text-decoration: none; line-height: 1.71;
 }
 
-  .contacto {
-   list-style: none;
-  }
- /*-----------------------------portafolio imagenes-------------*/
- 
-   
+  
+ /*-----------------------------portafolio botones-------------*/
+ .menu {
+   font-size: 16px; font-weight: 500; line-height: 1.62; color: var(--color5);
+ }
+   .proyect h3{color: var(--color2); font-size: 18px; font-weight: 700; line-height: 2;
+
+   }
+   .menu p{
+      font-size: 16; font-weight: 400; line-height: 1.87; color: var(--color3);
+   }
+   .menu :hover{color:var(--color3)}
